@@ -1,11 +1,8 @@
 #include <stdio.h>
-
 /**
- * main -Entry point Program for counting single digits
- *
- * Returns: 0 (success)
+ * main - prints all single digit numbers of base 10 starting from 0
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int num;
@@ -16,4 +13,3 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-}
